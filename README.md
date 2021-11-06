@@ -37,8 +37,7 @@ onde todas as instancias de stra foram substituidas por strb.
 
 ### 4. Mix Up
 
-Dadas as strings a e b, retorne uma string com a e b separados
-por um espaço '<a> <b>', além disso, troque os 2 primeiros caracteres
+Dadas as strings a e b, retorne uma string com a e b separados por um espaço 'a b', além disso, troque os 2 primeiros caracteres
 das duas strings.
 
 
@@ -50,3 +49,13 @@ Assuma que a e b tem tamanho 2 ou maior.
 
 
 #### Arquivo: 04_mix_up.py
+
+### 5. Verbing
+
+Dada uma string, se seu tamanho for pelo menos 3, adicione 'ing' no seu fim, a menos que a string já termine com 'ing', nesse caso adicione 'ly'.
+
+Se o tamanho da string for menor que 3, não altere nada.
+
+Retorne o resultado da string.
+
+#### Arquivo: 05_verbing.py
