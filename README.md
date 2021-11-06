@@ -34,3 +34,19 @@ Dica: s.replace(stra, strb) retorna uma versão da string s
 onde todas as instancias de stra foram substituidas por strb.
 
 #### Arquivo: 03_fix_start.py
+
+### 4. Mix Up
+
+Dadas as strings a e b, retorne uma string com a e b separados
+por um espaço '<a> <b>', além disso, troque os 2 primeiros caracteres
+das duas strings.
+
+
+Exemplo:
+    'mix', 'pod' -> 'pox mid'
+    'dog, 'dinner' -> 'dig donner'
+
+Assuma que a e b tem tamanho 2 ou maior.
+
+
+#### Arquivo: 04_mix_up.py
