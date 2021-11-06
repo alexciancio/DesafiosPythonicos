@@ -79,3 +79,11 @@ Finalmente, dadas duas strings a e b, retorne uma string na forma:
 a-frente + b-frente + a-trás + b-trás
 
 #### Arquivo: 07_front_back.py
+
+### 8. Match Ends
+
+Dada uma lista de strings, retorne a contagem do número de strings onde o comprimento da cadeia é 2 ou mais e o primeiro e o último caracteres da cadeia são os mesmos.
+
+PS: Python não possui o operador ++, porém += funciona.
+
+#### Arquivo: 08_match_ends.py
