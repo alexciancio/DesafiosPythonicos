@@ -11,7 +11,9 @@ Exemplo: 'The dinner is not that bad!' retorna 'The dinner is good!'
 
 def not_bad(s):
     # +++ SUA SOLUÇÃO +++
-    return
+    if ('not' in s) and ('bad' in s):
+        if s.index('not') < s.index('bad'): s = s[:s.index('not')] + 'good' + s[s.index('bad')+3:]
+    return s
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---

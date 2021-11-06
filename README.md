@@ -59,3 +59,12 @@ Se o tamanho da string for menor que 3, não altere nada.
 Retorne o resultado da string.
 
 #### Arquivo: 05_verbing.py
+
+
+### 6. Not Bad
+
+Dada uma string, encontre a primeira aparição das substrings 'not' e 'bad'. Se 'bad' aparecer depois de 'not', troque todo o trecho entre 'not' e 'bad' por 'good' e retorne a string resultante.
+
+Exemplo: 'The dinner is not that bad!' retorna 'The dinner is good!'
+
+#### Arquivo: 06_not_bad.py
