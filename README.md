@@ -87,3 +87,15 @@ Dada uma lista de strings, retorne a contagem do número de strings onde o compr
 PS: Python não possui o operador ++, porém += funciona.
 
 #### Arquivo: 08_match_ends.py
+
+
+### 9. Front X
+
+Dada uma lista de strings, retorne a lista com as strings ordenadas, porém agrupe todas as strings que começam com 'x' primeiro.
+
+Exemplo: ['mix', 'banana' ,'xyz', 'apple', 'xanadu', 'aardvark']
+Irá retornar: ['xanadu', 'xyz', 'aardvark', 'apple', 'banana' ,'mix']
+
+Dica: Isso pode ser resolvido criando 2 listas e ordenando cada uma antes de combina-las.
+
+#### Arquivo: 09_front_x.py
