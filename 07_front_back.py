@@ -10,10 +10,15 @@ Exemplo: 'abcde', a metade da frente é 'abc' e a de trás é 'de'.
 Finalmente, dadas duas strings a e b, retorne uma string na forma:
 a-frente + b-frente + a-trás + b-trás
 """
+from math import ceil
+
+
 def front_back(a, b):
     # +++ SUA SOLUÇÃO +++
-    return
+    return f_t(a)[0] + f_t(b)[0] + f_t(a)[1] + f_t(b)[1]
 
+def f_t(s):
+    return s[:ceil(len(s)/2)],s[ceil(len(s)/2):]
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
 

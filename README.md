@@ -68,3 +68,14 @@ Dada uma string, encontre a primeira aparição das substrings 'not' e 'bad'. Se
 Exemplo: 'The dinner is not that bad!' retorna 'The dinner is good!'
 
 #### Arquivo: 06_not_bad.py
+
+### 7. Front Back
+
+Considere dividir uma string em duas metades. Caso o comprimento seja par, a metade da frente e de trás tem o mesmo tamanho. Caso o comprimento seja impar, o caracter extra fica na metade da frente.
+
+Exemplo: 'abcde', a metade da frente é 'abc' e a de trás é 'de'.
+
+Finalmente, dadas duas strings a e b, retorne uma string na forma:
+a-frente + b-frente + a-trás + b-trás
+
+#### Arquivo: 07_front_back.py
