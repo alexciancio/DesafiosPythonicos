@@ -21,3 +21,16 @@ for menor que 2, retorne uma string vazia.
 Exemplo: 'spring' retorna 'spng'. 
 
 #### Arquivo: 02_both_ends.py
+
+### 3. Fix Start
+
+Dada uma string _s_, retorne uma string onde todas as ocorrências do primeiro caracter de _s_ foram substituidas por '*', exceto a primeira.
+
+Exemplo: 'babble' retorna 'ba**le'
+
+Assuma que a string tem tamanho 1 ou maior.
+
+Dica: s.replace(stra, strb) retorna uma versão da string s
+onde todas as instancias de stra foram substituidas por strb.
+
+#### Arquivo: 03_fix_start.py
