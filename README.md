@@ -99,3 +99,15 @@ Irá retornar: ['xanadu', 'xyz', 'aardvark', 'apple', 'banana' ,'mix']
 Dica: Isso pode ser resolvido criando 2 listas e ordenando cada uma antes de combina-las.
 
 #### Arquivo: 09_front_x.py
+
+### 10. Sort Last
+
+Dada uma lista de tuplas não vazias, retorne uma lista ordenada em ordem
+crescente com base no último elemento de cada tupla.
+
+Exemplo: [(1, 7), (1, 3), (3, 4, 5), (2, 2)]
+Irá retornar: [(2, 2), (1, 3), (3, 4, 5), (1, 7)]
+
+Dica: Use uma custom key= function para extrair o ultimo elemento de cada tupla.
+
+#### Arquivo: 10_sort_last.py
